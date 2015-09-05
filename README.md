@@ -6,9 +6,10 @@ spreading happiness through a chrome extension
 <br> 2. unzip file
 <br> 3. go to menu button on the right-->  more tools --> extensions --> load unpacked extension
 <br> 4. head to http://vassardevils.tumblr.com/post/128438397106/here-is-a-poem-about-how-much-i-hate-you to see the extension in action. 
+<br>
 <p>
 The original letter is as follows: 
-<b>here is a poem about how much I hate you</b>
+<br><b>here is a poem about how much I hate you</b>
 
 <br>Wow, I hate you. 
 <br>You are very dumb, and an asshole. 
