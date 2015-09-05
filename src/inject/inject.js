@@ -28,33 +28,45 @@ chrome.extension.sendMessage({}, function(response) {
 
 			//** these are all the words that will be replaced with POSITIVITY :) 
 
-			//** WARNING, profanity ahead!!!!
+			//** WARNING, profanity in code ahead!!!!
 
+			var arrayEndings = ["", "hole", "hat", "wipe"];
+
+			for (var i = arrayEndings.length - 1; i >= 0; i--) {
+				
+				var r = new RegExp("\\bass" + arrayEndings[i] + "\\b", 'gi');
+				currentVal.nodeValue = currentVal.nodeValue.replace(r, "ray of sunshine");
+			};
 
 			// fighting body shaming
 			currentVal.nodeValue = currentVal.nodeValue.replace(/fat/gi, "beautiful");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/obese/gi, "stunning");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/overweight/gi, "amazing")
-			currentVal.nodeValue = currentVal.nodeValue.replace(/dump/gi, "hip");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/overweight/gi, "amazing");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/dumpster/gi, "hipster");
 
-			
 			// general
 			currentVal.nodeValue = currentVal.nodeValue.replace(/fuck/gi, "walk");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/hate/gi, "love");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/ass/gi, "happy");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/damn/gi, "peanut butter and jam");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/die/gi, "LIVE YOUR LIFE TO THE FULLEST");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/kill/gi, "HUG");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/suck/gi, "cook")
-			currentVal.nodeValue = currentVal.nodeValue.replace(/not/gi, "");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/ifications/gi, "notifications");
+			
 
-			currentVal.nodeValue = currentVal.nodeValue.replace(/don't/gi, "");
+
+
+			currentVal.nodeValue = currentVal.nodeValue.replace(/\bkill\b/gi, "hug");
+			// currentVal.nodeValue = currentVal.nodeValue.replace(/\skill\s|^kill$|^kill\s|\skill$/gi, "hug");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/suck/gi, "cook")
+
+			
+
+
+
+			currentVal.nodeValue = currentVal.nodeValue.replace(/dont/gi, "");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/crap/gi, "apple pie ");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/dead/gi, "very much alive");
 
 			currentVal.nodeValue = currentVal.nodeValue.replace(/whatthehack/gi, "HAPPY HACKING AT UNHACKATHON");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/boo/gi, "yay");
+
 
 
 
@@ -76,25 +88,18 @@ chrome.extension.sendMessage({}, function(response) {
 			currentVal.nodeValue = currentVal.nodeValue.replace(/cum/gi, "beer");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/anus/gi, "all");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/anal/gi, "chocolate");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/beef/gi, "shower");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/enegma/gi, "wine ");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/happyhole/gi, "happiness");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/blow/gi, "blow bubbles with ");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/shit/gi, "kangaroos");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/HAPPYociated/gi, "associated");
-
-			
 
 
 
-
-			// fighting descrimination
+			// fighting descrimination due to race, ethnicity, ability
 			currentVal.nodeValue = currentVal.nodeValue.replace(/fag/gi, "groot");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/grog/gi, "gro");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/bullshit/gi, "blueberry");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/gypsy/gi, "")
-			
-			// fighting ableism 
+			currentVal.nodeValue = currentVal.nodeValue.replace(/nigger/gi, "ray of sunshine");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/retard/gi, "cool kid");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/retarded/gi, "intelligent");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/bastard/gi, "dear friend");
