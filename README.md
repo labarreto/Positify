@@ -18,5 +18,8 @@ The original letter is as follows:
 <br>I hope you die. 
 <br>You should hate yourself because you are very ugly. 
 <br>I can't believe I dated such a freak.
+<br>
+<br>
+<br> also, hint hint, you should see this hashtag on twitter https://twitter.com/hashtag/whatthehack
 </p>
 </body>
