@@ -30,7 +30,7 @@ chrome.extension.sendMessage({}, function(response) {
 
 			//** WARNING, profanity in code ahead!!!!
 
-			var arrayEndings = ["", "hole", "hat", "wipe"];
+			var arrayEndings = ["", "hole", "hat", "wipe", "munch", "muncher", "banger", "wad"];
 
 			for (var i = arrayEndings.length - 1; i >= 0; i--) {
 				
@@ -43,12 +43,13 @@ chrome.extension.sendMessage({}, function(response) {
 			currentVal.nodeValue = currentVal.nodeValue.replace(/obese/gi, "stunning");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/overweight/gi, "amazing");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/dumpster/gi, "hipster");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/ugly/gi, "supermegafoxyawesomehot");
 
 			// general
 			currentVal.nodeValue = currentVal.nodeValue.replace(/fuck/gi, "walk");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/hate/gi, "love");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/\bhate\b/gi, "love");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/damn/gi, "peanut butter and jam");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/die/gi, "LIVE YOUR LIFE TO THE FULLEST");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/\bdie\b/gi, "LIVE YOUR LIFE TO THE FULLEST!!!!!");
 			
 
 
@@ -61,7 +62,7 @@ chrome.extension.sendMessage({}, function(response) {
 
 
 
-			currentVal.nodeValue = currentVal.nodeValue.replace(/dont/gi, "");
+
 			currentVal.nodeValue = currentVal.nodeValue.replace(/crap/gi, "apple pie ");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/dead/gi, "very much alive");
 
