@@ -27,14 +27,23 @@ chrome.extension.sendMessage({}, function(response) {
 			//** these are all the words that will be replaced with POSITIVITY :) 
 			//** TRIGGER WARNING, profanity ahead
 
-			// verbs
-			// nouns
-			// adjectives
+			// actions
+			currentVal.nodeValue = currentVal.nodeValue.replace(/die/gi, "LIVE YOUR LIFE TO THE FULLEST");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/kill/gi, "HUG");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/suck/gi, "rule")
+
+			currentVal.nodeValue = currentVal.nodeValue.replace(/not/gi, "");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/don't/gi, "");
+
+
+			// fighting body shaming
+			currentVal.nodeValue = currentVal.nodeValue.replace(/fat/gi, "beautiful");
+
+			
 			
 			currentVal.nodeValue = currentVal.nodeValue.replace(/stupid/gi, "brilliant");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/dumb/gi, "smart");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/not/gi, "");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/don't/gi, "");
+
 			
 			
 			currentVal.nodeValue = currentVal.nodeValue.replace(/bitch/gi, "admirable human being");
@@ -44,17 +53,20 @@ chrome.extension.sendMessage({}, function(response) {
 
 			currentVal.nodeValue = currentVal.nodeValue.replace(/bastard/gi, "dear friend");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/hate/gi, "love");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/ass/gi, "sun"
-			currentVal.nodeValue = currentVal.nodeValue.replace(/whore/gi, "delight");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/cunt/gi, "person not defined by your body parts");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/ass/gi, "HAPPY");
 
-			//** positivity!!
-			currentVal.nodeValue = currentVal.nodeValue.replace(/fat/gi, "beautiful");
+			// fighting female-idenfitying derogatory terms
+			currentVal.nodeValue = currentVal.nodeValue.replace(/whore/gi, "delight");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/cunt/gi, "strawberry");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/tits/gi, "fruit");
+			currentVal.nodeValue = currentVal.nodeValue.replace(/hoe/gi, "long-handled gardening tool used for breaking up soil");
+
+
+
+			// fighting ableism 
 			currentVal.nodeValue = currentVal.nodeValue.replace(/retard/gi, "cool kid");
 			currentVal.nodeValue = currentVal.nodeValue.replace(/retarded/gi, "intelligent");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/die/gi, "LIVE YOUR LIFE TO THE FULLEST");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/kill/gi, "HUG");
-			currentVal.nodeValue = currentVal.nodeValue.replace(/suck/gi, "")
+			
 
 		});
 
