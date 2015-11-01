@@ -1,17 +1,25 @@
 # Positify
-spreading happiness through a chrome extension
-<h1> testing the chrome extension </h1>
-<body> first make sure you add the chrome extension manually to google chrome by:
-<br> 1. downloading a zip
-<br> 2. unzip file
-<br> 3. go to menu button on the right-->  more tools --> extensions --> load unpacked extension
+Prototype from Unhackathon 2015 Summer
+<br>
+Spreading happiness through a chrome extension
+<br>
+<h1> How to test it : </h1>
+<body> First make sure you add the chrome extension manually to Google chrome by :
+<br> 1. Downloading a zip
+<br> 2. Unzipping the file
+<br> 3. Go to menu button on the right-->  more tools --> extensions --> load unpacked extension
 <br> 4. head to http://thehackathondemo.tumblr.com/post/128440951361/here-is-a-poem-about-how-much-i-hate-you
 <br>     to see the extension in action. 
 <br>
-<p>
-The original letter is as follows: 
-<br><b>here is a poem about how much I hate you</b>
+We are working on new algorithm to determine negative prefixes, like 'un-' or 'de-' and more. 
+<br>
+Stay tuned for more updates!
+<br>
+<br>
 
+<h3>The break up : </h3>
+<br><b>Here is a poem about how much I hate you</b>
+<p>
 <br>Wow, I hate you. 
 <br>You are very dumb, and an asshole. 
 <br>I do not understand why you call me an ass while you are an asshole. 
@@ -20,7 +28,8 @@ The original letter is as follows:
 <br>You should hate yourself because you are very ugly. 
 <br>I can't believe I dated such a freak.
 <br>
-<br>
-<br> also, hint hint, you should see this hashtag on twitter https://twitter.com/hashtag/whatthehack
 </p>
+<br>
+<h4>For some more fun : </h4>
+<br> While you are on positify, tweet us #whatthehack to see a surprise! @superlauraaa and @ellieseoejung
 </body>
