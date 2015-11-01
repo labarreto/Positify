@@ -3,7 +3,7 @@ Prototype from Unhackathon 2015 Summer
 <br>
 Spreading happiness through a chrome extension
 <br>
-<h1> How to test it : </h1>
+<h1>How to test it : </h1>
 <body> First make sure you add the chrome extension manually to Google chrome by :
 <br> 1. Downloading a zip
 <br> 2. Unzipping the file
@@ -30,7 +30,7 @@ Stay tuned for more updates!
 <br>
 </p>
 <br>
-<h4>For some more fun : </h4>
+<h3>For some more fun : </h3>
 <br> 
 While you are on positify, tweet us #whatthehack to see a surprise! 
 <br>
