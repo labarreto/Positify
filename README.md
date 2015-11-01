@@ -31,5 +31,8 @@ Stay tuned for more updates!
 </p>
 <br>
 <h4>For some more fun : </h4>
-<br> While you are on positify, tweet us #whatthehack to see a surprise! @superlauraaa and @ellieseoejung
+<br> 
+While you are on positify, tweet us #whatthehack to see a surprise! 
+<br>
+@superlauraaa and @ellieseoejung
 </body>
